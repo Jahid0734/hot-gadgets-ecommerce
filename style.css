@@ -23,12 +23,16 @@
 
 .carousel-indicators li{
     height: 6px;
-    width: 10px;
+    width: 20px;
     background-color: gray;
+    border-radius: 6px;
+    background-clip: unset;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
 }
 .carousel-indicators li.active{
-    height: 6px;
-    width: 25px;
+   
+    width: 50px;
     
     background-image: linear-gradient(to right, #eabb0ff5, orange);
 }
@@ -64,3 +68,7 @@ footer, a{
 }
 ul i{
     color: #ce20d1;
+}
+.carousel-control-prev{
+    width: 3%;
+}
